@@ -39,9 +39,9 @@
   font-family: 'Inter', sans-serif;
 }
 
-/* Fluid responsive title clamp spanning 320px to 2560px+ */
+/* Fluid responsive title clamp supporting 280px ultra-small up to 4K / 2560px+ displays */
 .hero-title {
-  font-size: clamp(3.1rem, 11vw, 12rem);
+  font-size: clamp(2.1rem, 9.8vw, 12rem);
   line-height: clamp(0.81, 0.84, 0.88);
   letter-spacing: clamp(-0.048em, -0.025em, -0.01em);
   max-width: 100%;
