@@ -2,17 +2,17 @@ import React from 'react';
 
 export const SocialLinks = ({ onEmailClick }) => {
   return (
-    <div className="flex items-center justify-center gap-4 py-4 z-30">
+    <div className="flex items-center justify-center gap-3 sm:gap-4 py-2 sm:py-3 z-30 shrink-0">
       {/* Instagram */}
       <a
         href="https://instagram.com"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Instagram"
-        className="w-10 h-10 sm:w-11 sm:h-11 rounded-full border border-white/25 bg-black/35 backdrop-blur-md flex items-center justify-center text-white/90 transition-all duration-300 hover:border-[#FFD21F] hover:text-[#FFD21F] hover:bg-[#FFD21F]/10 hover:scale-110 hover:shadow-[0_0_16px_rgba(255,210,31,0.3)] animate-slide-up opacity-0 delay-500 group"
+        className="w-9 h-9 sm:w-10 sm:h-10 md:w-11 md:h-11 rounded-full border border-white/25 bg-black/35 backdrop-blur-md flex items-center justify-center text-white/90 transition-all duration-300 hover:border-[#FFD21F] hover:text-[#FFD21F] hover:bg-[#FFD21F]/10 hover:scale-110 hover:shadow-[0_0_16px_rgba(255,210,31,0.3)] animate-slide-up opacity-0 delay-500 group"
       >
         <svg
-          className="w-4 h-4 sm:w-5 sm:h-5 transition-transform duration-300 group-hover:scale-110"
+          className="w-4 h-4 sm:w-4.5 sm:h-4.5 md:w-5 md:h-5 transition-transform duration-300 group-hover:scale-110"
           fill="none"
           stroke="currentColor"
           strokeWidth="1.75"
@@ -32,10 +32,10 @@ export const SocialLinks = ({ onEmailClick }) => {
         target="_blank"
         rel="noopener noreferrer"
         aria-label="LinkedIn"
-        className="w-10 h-10 sm:w-11 sm:h-11 rounded-full border border-white/25 bg-black/35 backdrop-blur-md flex items-center justify-center text-white/90 transition-all duration-300 hover:border-[#FFD21F] hover:text-[#FFD21F] hover:bg-[#FFD21F]/10 hover:scale-110 hover:shadow-[0_0_16px_rgba(255,210,31,0.3)] animate-slide-up opacity-0 delay-600 group"
+        className="w-9 h-9 sm:w-10 sm:h-10 md:w-11 md:h-11 rounded-full border border-white/25 bg-black/35 backdrop-blur-md flex items-center justify-center text-white/90 transition-all duration-300 hover:border-[#FFD21F] hover:text-[#FFD21F] hover:bg-[#FFD21F]/10 hover:scale-110 hover:shadow-[0_0_16px_rgba(255,210,31,0.3)] animate-slide-up opacity-0 delay-600 group"
       >
         <svg
-          className="w-4 h-4 sm:w-5 sm:h-5 transition-transform duration-300 group-hover:scale-110"
+          className="w-4 h-4 sm:w-4.5 sm:h-4.5 md:w-5 md:h-5 transition-transform duration-300 group-hover:scale-110"
           fill="none"
           stroke="currentColor"
           strokeWidth="1.75"
@@ -57,10 +57,10 @@ export const SocialLinks = ({ onEmailClick }) => {
           onEmailClick();
         }}
         aria-label="Email"
-        className="w-10 h-10 sm:w-11 sm:h-11 rounded-full border border-white/25 bg-black/35 backdrop-blur-md flex items-center justify-center text-white/90 transition-all duration-300 hover:border-[#FFD21F] hover:text-[#FFD21F] hover:bg-[#FFD21F]/10 hover:scale-110 hover:shadow-[0_0_16px_rgba(255,210,31,0.3)] animate-slide-up opacity-0 delay-700 group"
+        className="w-9 h-9 sm:w-10 sm:h-10 md:w-11 md:h-11 rounded-full border border-white/25 bg-black/35 backdrop-blur-md flex items-center justify-center text-white/90 transition-all duration-300 hover:border-[#FFD21F] hover:text-[#FFD21F] hover:bg-[#FFD21F]/10 hover:scale-110 hover:shadow-[0_0_16px_rgba(255,210,31,0.3)] animate-slide-up opacity-0 delay-700 group"
       >
         <svg
-          className="w-4 h-4 sm:w-5 sm:h-5 transition-transform duration-300 group-hover:scale-110"
+          className="w-4 h-4 sm:w-4.5 sm:h-4.5 md:w-5 md:h-5 transition-transform duration-300 group-hover:scale-110"
           fill="none"
           stroke="currentColor"
           strokeWidth="1.75"

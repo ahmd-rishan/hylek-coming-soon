@@ -6,11 +6,24 @@
     --hylek-bg: #060807;
   }
 
-  body {
-    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  *, ::before, ::after {
+    box-sizing: border-box;
+  }
+
+  html, body {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
     background-color: var(--hylek-bg);
     color: #ffffff;
-    overflow-x: hidden;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+
+  img, svg, video {
+    max-width: 100%;
+    height: auto;
   }
 }
 
@@ -24,6 +37,16 @@
 
 .font-body {
   font-family: 'Inter', sans-serif;
+}
+
+/* Fluid responsive title clamp */
+.hero-title {
+  font-size: clamp(2.4rem, 10vw, 9.2rem);
+  line-height: clamp(0.82, 0.85, 0.9);
+  letter-spacing: clamp(-0.05em, -0.02em, -0.01em);
+  max-width: 100%;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 /* Custom animations */
@@ -105,11 +128,4 @@
     opacity: 1 !important;
     transform: none !important;
   }
-}
-
-/* Custom clamp heading for responsive typography */
-.hero-title {
-  font-size: clamp(54px, 8.8vw, 138px);
-  line-height: 0.84;
-  letter-spacing: -0.03em;
 }
