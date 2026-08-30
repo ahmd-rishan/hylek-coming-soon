@@ -39,14 +39,20 @@
   font-family: 'Inter', sans-serif;
 }
 
-/* Fluid responsive title clamp */
+/* Fluid responsive title clamp spanning 320px to 2560px+ */
 .hero-title {
-  font-size: clamp(2.4rem, 10vw, 9.2rem);
-  line-height: clamp(0.82, 0.85, 0.9);
-  letter-spacing: clamp(-0.05em, -0.02em, -0.01em);
+  font-size: clamp(3.1rem, 11vw, 12rem);
+  line-height: clamp(0.81, 0.84, 0.88);
+  letter-spacing: clamp(-0.048em, -0.025em, -0.01em);
   max-width: 100%;
-  overflow-wrap: break-word;
-  word-break: break-word;
+}
+
+/* Force unbroken single-line words */
+.hero-word {
+  display: block;
+  white-space: nowrap;
+  word-break: normal !important;
+  overflow-wrap: normal !important;
 }
 
 /* Custom animations */
@@ -55,7 +61,7 @@
     transform: scale(1);
   }
   50% {
-    transform: scale(1.025);
+    transform: scale(1.028);
   }
   100% {
     transform: scale(1);
